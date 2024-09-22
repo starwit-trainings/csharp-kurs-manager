@@ -1,0 +1,14 @@
+C:\Users\anett\source\repos\KursManager\KursManager\bin\Debug\net8.0\KursManager.exe
+C:\Users\anett\source\repos\KursManager\KursManager\bin\Debug\net8.0\KursManager.deps.json
+C:\Users\anett\source\repos\KursManager\KursManager\bin\Debug\net8.0\KursManager.runtimeconfig.json
+C:\Users\anett\source\repos\KursManager\KursManager\bin\Debug\net8.0\KursManager.dll
+C:\Users\anett\source\repos\KursManager\KursManager\bin\Debug\net8.0\KursManager.pdb
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\KursManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\KursManager.AssemblyInfoInputs.cache
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\KursManager.AssemblyInfo.cs
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\KursManager.csproj.CoreCompileInputs.cache
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\KursManager.dll
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\refint\KursManager.dll
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\KursManager.pdb
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\KursManager.genruntimeconfig.cache
+C:\Users\anett\source\repos\KursManager\KursManager\obj\Debug\net8.0\ref\KursManager.dll
