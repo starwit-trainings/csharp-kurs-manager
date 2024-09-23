@@ -1,6 +1,6 @@
 ﻿namespace KursManager
 {
-    internal class Kurs
+    internal class Kurs : AbstractEntity
     {
         private string? name;
         private string? trainer;
