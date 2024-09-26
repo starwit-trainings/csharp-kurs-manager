@@ -24,7 +24,7 @@
             if (Dates != null) {
                 for (int i = 0; i < Dates.Length; i++)
                 {
-                    dateString = dateString + Dates[i].ToString("dd.M.yyyy") + "\n\t";
+                    dateString = dateString + Dates[i].ToString("d.M.yyyy") + "\n\t";
                     if (i < Dates.Length - 1)
                     {
                         dateString = dateString + "    ";

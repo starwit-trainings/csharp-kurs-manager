@@ -13,11 +13,13 @@ namespace KursManager
             
             Programm programm = new Programm();
 
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
             //Kursliste
-            programm.kursListe = programm.ReadAllKurseFromCSV("C:\\Users\\anett\\git\\csharp-basics\\kurse.csv");
+            programm.kursListe = programm.ReadAllKurseFromCSV(Path.Combine(docPath, "Kurs.csv"));
 
             //Teilnehmerliste
-            programm.teilnehmerListe = programm.ReadAllTeilnehmerFromCSV("C:\\Users\\anett\\git\\csharp-basics\\teilnehmer.csv");
+            programm.teilnehmerListe = programm.ReadAllTeilnehmerFromCSV(Path.Combine(docPath, "Teilnehmer.csv"));
 
             Console.WriteLine("+++++++ Alle Kurse ++++++++");
             foreach (var kurse in programm.kursListe)
@@ -68,7 +70,7 @@ namespace KursManager
                     {
                         foreach (var date in kurs.Dates)
                         {
-                            if (date.ToString("dd.M.yyyy") == dateString)
+                            if (date.ToString("d.M.yyyy") == dateString)
                             {
                                 currentKursList.Add(kurs);
                                 break;
@@ -93,7 +95,7 @@ namespace KursManager
                     {
                         foreach (var date in teilnehmer.Kurs.Dates)
                         {
-                            if (date.ToString("dd.M.yyyy") == dateString)
+                            if (date.ToString("d.M.yyyy") == dateString)
                             {
                                 currentKursList.Add(teilnehmer.Kurs);
                                 break;
@@ -134,7 +136,7 @@ namespace KursManager
             kurs.Dates = new DateOnly[dateStrings.Length];
             for (int i = 0; i < dateStrings.Length; i++)
             {
-                DateOnly.TryParseExact(dateStrings[i].Trim(), "dd.M.yyyy", out kurs.Dates[i]);
+                DateOnly.TryParseExact(dateStrings[i].Trim(), "d.M.yyyy", out kurs.Dates[i]);
             }
             return kurs;
         }
@@ -167,12 +169,13 @@ namespace KursManager
             string[] teilnehmerAttributes = teilnehmerAsString.Split(",");
             Teilnehmer teilnehmer = new Teilnehmer();
             teilnehmer.Name = teilnehmerAttributes[0].Trim();
+            teilnehmer.Alter = Convert.ToInt32(teilnehmerAttributes[1].Trim());
             if (kursListe != null)
             {
                 int count = kursListe.Count;
                 for (int i = 0; i < count; i++)
                 {
-                    if (teilnehmerAttributes[1] == kursListe[i].Name)
+                    if (teilnehmerAttributes[2].Trim() == kursListe[i].Name)
                     {
                         teilnehmer.Kurs = kursListe[i];
                         kursListe[i].TeilnehmerList.Add(teilnehmer);

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KursManager", "KursManager\KursManager.csproj", "{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KursManager2", "KursManager2\KursManager2.csproj", "{F9CCD294-AE3D-4E27-8353-08F80697BE45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CCD294-AE3D-4E27-8353-08F80697BE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CCD294-AE3D-4E27-8353-08F80697BE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CCD294-AE3D-4E27-8353-08F80697BE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CCD294-AE3D-4E27-8353-08F80697BE45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FF5F1469-9C06-44C9-BC0B-04D8EBE902FA}
+		SolutionGuid = {DB0E58A0-B757-47BE-A286-9CC3F931AEF6}
 	EndGlobalSection
 EndGlobal
