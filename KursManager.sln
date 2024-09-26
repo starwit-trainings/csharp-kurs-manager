@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KursManager", "KursManager\KursManager.csproj", "{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KursManager", "KursManager\KursManager.csproj", "{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{3958B8EA-E70E-489E-9927-F642EF294934}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E7FAF83-E3DB-4544-BB3F-AC0FD924810E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3958B8EA-E70E-489E-9927-F642EF294934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3958B8EA-E70E-489E-9927-F642EF294934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3958B8EA-E70E-489E-9927-F642EF294934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3958B8EA-E70E-489E-9927-F642EF294934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
